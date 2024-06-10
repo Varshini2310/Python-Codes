@@ -1,0 +1,17 @@
+n=input()
+nlen=len(n)
+b=[]
+c=[]
+for i in range(0,nlen):
+    if n[i].isalpha():
+        b.append(n[i])
+print('the letters in given string are',b)
+for letters in b:
+    if letters not in c:
+        c.append(letters)
+print('the letters in the string after removing duplicates',c)
+   
+   OUTPUT:
+   Raj is a good boy
+the letters in given string are ['R', 'a', 'j', 'i', 's', 'a', 'g', 'o', 'o', 'd', 'b', 'o', 'y']
+the letters in the string after removing duplicates ['R', 'a', 'j', 'i', 's', 'g', 'o', 'd', 'b', 'y']
