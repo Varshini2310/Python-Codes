@@ -1,0 +1,6 @@
+numbers=int(input("enter number"))
+if(numbers>0):
+    additionnumbers=(numbers*(numbers+1))/2
+    print(additionnumbers)
+     output:-enter number78
+        3081.0

@@ -1,0 +1,28 @@
+n=int(input("enter n value"))
+def prime_eratosthenes(n):
+    prime_list = []
+    for i in range(2, n+1):
+        if i not in prime_list:
+            print (i)
+            for j in range(i*i, n+1, i):
+                prime_list.append(j)
+               
+print(prime_eratosthenes(n));
+  
+  ouput:
+  enter n value45
+2
+3
+5
+7
+11
+13
+17
+19
+23
+29
+31
+37
+41
+43
+None

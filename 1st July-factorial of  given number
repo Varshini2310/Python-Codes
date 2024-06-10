@@ -1,0 +1,8 @@
+number=int(input("enter number"))
+fact=1
+while(number>0):
+    fact=fact*number
+    number=number-1
+print("factorial of is",fact)
+output:-enter number5
+  factorial of is 120
