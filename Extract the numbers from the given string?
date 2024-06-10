@@ -1,0 +1,17 @@
+m=input()
+mlen=len(m)
+b=[]
+c=[]
+for i in range(0,mlen):
+    if m[i].isdigit():
+        b.append(int(m[i]))
+print('the numbers in given string',b)
+for num in b:
+    if num not in c:
+        c.append(num)
+print('the numbers in the string after removing duplicates',c)
+
+OUTPUT:
+123654789321654987
+the numbers in given string [1, 2, 3, 6, 5, 4, 7, 8, 9, 3, 2, 1, 6, 5, 4, 9, 8, 7]
+the numbers in the string after removing duplicates [1, 2, 3, 6, 5, 4, 7, 8, 9]
